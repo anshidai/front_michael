@@ -1,0 +1,315 @@
+/*************************** 宽屏样式 (Start) ***************************/
+.w_1200 #lib_user_wrap, .w_1200 #lib_user_binding{width:1180px;}
+
+.w_1200 #lib_user_prompt li.coupons{width:340px;}
+.w_1200 #lib_user_prompt li.news{width:590px;}
+
+.w_1200 #lib_user_menu{width:234px;}
+
+.w_1200 #lib_user_main{width:950px;}
+.w_1200 #lib_user_main .index_ml{width:318px;}
+.w_1200 #lib_user_main .index_mr{width:568px;}
+.w_1200 #lib_user_main .index_item.address ul{line-height:200%;}
+
+.w_1200 #lib_user_main .index_item.favorites .viewport ul li{width:160px;}
+
+.w_1200 #lib_user_main .index_item.review dl.fl{width:520px;}
+.w_1200 #lib_user_main .index_item.review dl.fl dd{width:420px;}
+.w_1200 #lib_user_main .index_item.review dl.fr{width:360px;}
+
+.w_1200 .order_base>table{width:600px;}
+.w_1200 .order_base .order_view{width:250px;}
+
+.w_1200 #lib_user_favorite .pro_item{width:218px;}
+.w_1200 #lib_user_favorite .pro_item>dt{height:218px;}
+/*************************** 宽屏样式 (End) ***************************/
+
+
+
+/*************************** 全局 (Start) ***************************/
+/* 表单 */
+.lib_txt{border:1px solid #ccc; border-radius:3px!important; height:36px; line-height:36px; padding:0 7px; color:#333; font-size:16px; box-shadow:0 1px 0 rgba(255,255,255,.8),inset 0 1px 2px rgba(0,0,0,.06);}
+.lib_txt:hover{border-color:#aaa;}
+.lib_txt:focus{border-color:#aaa;}
+.lib_btn{height:38px; padding:0 20px; border-radius:3px!important; border:none; color:#fff; font-size:16px; font-weight:bold;}
+.lib_btn:hover{background-position:0 -38px;}
+
+#lib_user input, #lib_user textarea, #lib_user button{outline:none;}
+#lib_user button{cursor:pointer;}
+
+/* 按钮 */
+#lib_user .textbtn{ height:28px; line-height:27px; padding:0 15px; border:1px solid #dbdbdb; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; cursor:pointer; display:inline-block; margin-right:10px; background:-webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eaeaea)); -webkit-background-origin: padding;}
+#lib_user .textbtn:hover{background:-webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#dadada));}
+
+#lib_user{background:#fff; width:100%; padding:10px 0 30px;}
+#lib_user_wrap{width:960px; margin:0 auto;}
+
+/* 面包屑 */
+#lib_user_crumb{position:relative; display:block; border-bottom:1px #ddd solid; margin-bottom:10px; font-family:verdana;}
+#lib_user_crumb .crumb_box{display:inline-block; margin-right:45px;}
+#lib_user_crumb li, #lib_user_crumb li a{height:29px; line-height:28px; text-decoration:none;}
+#lib_user_crumb li i, #lib_user_crumb .root a{background-image:url(img/user/user_crumb.png);}
+#lib_user_crumb li{float:left; position:relative;}
+#lib_user_crumb li a{padding:0 8px 0 12px; display:inline-block;}
+#lib_user_crumb li i{position:absolute; top:2px; right:-8px; z-index:20; width:9px; height:27px; line-height:26px; background-position:0px -34px;}
+#lib_user_crumb li.home a{padding-left:4px;}
+#lib_user_crumb .root a{color:#fff; text-shadow:0 1px 0 #666; background-position:0px -61px;}
+#lib_user_crumb .root i{background-position:-25px -37px;}
+
+/* 左侧栏 */
+#lib_user_menu{float:left; width:200px; border:1px solid #e1e1e1;}
+#lib_user_menu .title{height:36px; line-height:36px; text-indent:20px; background:#f3f3f3; font-size:14px; font-weight:bold;}
+#lib_user_menu ul{padding-bottom:12px;}
+#lib_user_menu li{border-top:1px dashed #e1e1e1; height:35px; line-height:35px; text-indent:24px; overflow:hidden;}
+#lib_user_menu li:first-child{border:none;}
+/*************************** 全局 (End) ***************************/
+
+
+
+/*************************** 会员首页 (Start) ***************************/
+#lib_user_welcome{margin-bottom:10px;}
+#lib_user_welcome dt{font-size:14px; color:#000; font-weight:bold; height:25px; padding-top:10px; margin-bottom:5px; text-transform:capitalize;}
+#lib_user_welcome dd{color:#333; line-height:1.6em;}
+
+#lib_user_prompt{height:37px; line-height:37px;}
+#lib_user_prompt li{position:relative; color:#555555; font-weight:bold; text-indent:60px; background:none #f6f6f6 no-repeat 10px center;}
+#lib_user_prompt li b{display:block; width:16px; height:16px; overflow:hidden; color:#fff; background:url(img/user/icon_num.gif) no-repeat center center; position:absolute; top:5px; left:40px; text-align:center; line-height:15px; text-indent:0; font-weight:lighter;} 
+#lib_user_prompt li.coupons{float:left; width:272px; height:37px; background-image:url(img/user/icon_coupons.gif); overflow:hidden;}
+#lib_user_prompt li.news{float:right; width:493px; height:37px; background-image:url(img/user/icon_news.gif); overflow:hidden;}
+
+#lib_user_main{float:right; width:770px;}
+#lib_user_main .index_ml{float:left; width:250px;}
+#lib_user_main .index_mr{float:right; width:470px;}
+#lib_user_main .index_boxes{border:1px solid #e7e7e7; padding:0 10px;}
+#lib_user_main .lib_user_title{height:40px; line-height:40px; font-size:18px; color:#000; border-bottom:1px solid #e7e7e7; text-transform:capitalize; text-indent:8px;}
+
+#lib_user_main .index_item{position:relative; overflow:hidden;}
+#lib_user_main .index_item h4{height:41px; line-height:41px; border-bottom:1px dashed #ccc; padding-left:35px; color:#555; text-transform:capitalize; background:none no-repeat 4px center; font-weight:bold;}
+#lib_user_main .index_item .link{position:absolute; top:13px; right:2px;}
+#lib_user_main .index_item .link a{color:#555; margin-left:10px;}
+#lib_user_main .index_item .link a:hover{color:#f60;}
+#lib_user_main .index_item.index_mr .link{right:15px;}
+#lib_user_main .index_item.personal{height:174px; border-bottom:1px solid #e5e5e5;}
+#lib_user_main .index_item.personal h4{background-image:url(img/user/icon_personal.gif);}
+#lib_user_main .index_item.personal ul{line-height:2.5em; padding:5px 0 0 6px;}
+#lib_user_main .index_item.personal ul b{margin-right:5px;}
+#lib_user_main .index_item.personal ul a{color:#999;}
+#lib_user_main .index_item.personal ul a:hover{color:#f60;}
+#lib_user_main .index_item.address{height:180px;}
+#lib_user_main .index_item.address h4{background-image:url(img/user/icon_address.gif);}
+#lib_user_main .index_item.address ul{line-height:175%; padding:5px 0 0 6px;}
+#lib_user_main .index_item.address ul b{margin-right:5px;}
+#lib_user_main .index_item.address ul a{color:#999;}
+#lib_user_main .index_item.address ul a:hover{color:#f30;}
+#lib_user_main .index_item.orders{height:355px;}
+#lib_user_main .index_item.orders h4{background-image:url(img/user/icon_orders.gif);}
+#lib_user_main .index_item.orders th{height:42px; line-height:42px; color:#60666a; text-align:left; text-indent:9px;}
+#lib_user_main .index_item.orders td{height:37px; line-height:15px; color:#333; text-indent:9px;}
+#lib_user_main .index_item.orders td a{color:#333; font-weight:bold;}
+#lib_user_main .index_item.orders .odd td{background:#f6f6f6;}
+#lib_user_main .index_item.orders .no_list{width:100%; padding-top:255px; text-align:center; color:#555; background:url(img/user/icon_orders_bg.gif) no-repeat center 50px; font-size:14px;}
+#lib_user_main .index_item.orders .no_list a{color:#555; text-decoration:underline; margin-left:5px;}
+#lib_user_main .index_item.orders .no_list a:hover{color:#f60;}
+#lib_user_main .index_item.service{height:174px;}
+#lib_user_main .index_item.service h4{background-image:url(img/user/icon_service.gif);}
+#lib_user_main .index_item.service ul li{padding-left:21px; margin-top:14px; background:url(img/user/point.gif) no-repeat 5px center;}
+#lib_user_main .index_item.service ul li a{color:#555; font-weight:bold;}
+#lib_user_main .index_item.favorites{height:174px;}
+#lib_user_main .index_item.favorites h4{background-image:url(img/user/icon_favorites.gif);}
+#lib_user_main .index_item.favorites .no_list{width:100%; padding-top:100px; text-align:center; color:#555; background:url(img/user/icon_favorites_bg.gif) no-repeat center 10px; font-size:14px;}
+#lib_user_main .index_item.favorites .no_list a{color:#555; text-decoration:underline; margin-left:5px;}
+#lib_user_main .index_item.favorites .no_list a:hover{color:#f60;}
+#lib_user_main .index_item.favorites .btn_l{width:18px; height:72px; cursor:pointer; position:absolute; top:71px; left:9px; background:url(img/user/btn_left.gif) no-repeat center center;}
+#lib_user_main .index_item.favorites .btn_r{width:18px; height:72px; cursor:pointer; position:absolute; top:71px; right:9px; background:url(img/user/btn_right.gif) no-repeat center center;}
+#lib_user_main .index_item.favorites .viewport{width:520px; height:131px; overflow:hidden; margin:0 auto;}
+#lib_user_main .index_item.favorites .viewport ul{width:200%;}
+#lib_user_main .index_item.favorites .viewport ul li{float:left; width:140px; height:131px; margin-right:20px; text-align:center;}
+#lib_user_main .index_item.favorites .viewport ul li .photo{width:100px; height:100px; display:block; margin:5px auto;}
+#lib_user_main .index_item.favorites .viewport ul li .photo a{width:100px; height:100px; display:table-cell; vertical-align:middle;}
+#lib_user_main .index_item.favorites .viewport ul li .photo img{ max-width:100%; max-height:100%;}
+#lib_user_main .index_item.favorites .viewport ul li .name{color:#666; display:block; height:16px; overflow:hidden;}
+#lib_user_main .index_item.review{min-height:100px; padding-bottom:19px;}
+#lib_user_main .index_item.review h4{background-image:url(img/user/icon_review.gif);}
+#lib_user_main .index_item.review .link{right:15px;}
+#lib_user_main .index_item.review li{width:100%; overflow:hidden; margin-top:19px;}
+#lib_user_main .index_item.review dl{line-height:1.6em; color:#555;}
+#lib_user_main .index_item.review dl.fl{width:510px; overflow:hidden;}
+#lib_user_main .index_item.review dl.fl dt{float:left; width:82px; height:82px; overflow:hidden; margin-top:3px; text-align:center;}
+#lib_user_main .index_item.review dl.fl dt img{max-width:100%; max-height:100%;}
+#lib_user_main .index_item.review dl.fl dd{float:left; width:410px; margin-left:10px;}
+#lib_user_main .index_item.review dl.fl .review{colro:#666;}
+#lib_user_main .index_item.review dl.fl .title{height:30px; line-height:30px; border-bottom:1px #ccc dotted;}
+#lib_user_main .index_item.review dl.fl .star{margin-left:10px;}
+#lib_user_main .index_item.review dl.fl .time{margin-right:10px;}
+#lib_user_main .index_item.review dl.fl .content{padding:10px; line-height:1.6em;}
+#lib_user_main .index_item.review dl.fr{width:203px; padding:3px 7px 3px 14px; background:#eee; position:relative;}
+#lib_user_main .index_item.review dl.fr dt{font-weight:bold;}
+#lib_user_main .index_item.review dl.fr .arrow{position:absolute; top:17px; left:-12px; display:block; width:12px; height:12px; font-size:0; line-height:0; background:url(img/user/review_arrow.gif);}
+/*************************** 会员首页 (End) ***************************/
+
+
+
+/*************************** 会员订单 (Start) ***************************/
+#lib_user_order th{height:26px; background:#f7f7f7; color:#333; font-size:12px; font-weight:bold; font-family:verdana; padding:10px; text-align:left;}
+#lib_user_order td{border-bottom:1px dashed #ccc; padding:15px 0 15px 10px; text-align:left; vertical-align:top; font-size:12px;}
+#lib_user_order .order_info{text-decoration:underline; color:#f60;}
+
+.order_btn{height:22px; line-height:22px; background:url(img/user/buttons_bg.jpg) repeat-x; padding:0 10px; text-shadow:0 1px 0 #fff9a0; border:1px #d0af76 solid; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; display:inline-block; text-decoration:none; color:#963; font-family:Verdana; margin-right:6px;}
+.order_btn:hover{background:url(img/user/buttons_hover_bg.jpg) repeat-x; border-color:#bf903d; box-shadow:0 1px 2px rgba(0,0,0,0.15); -webkit-box-shadow:0 2px 5px rgba(0,0,0,0.2); -moz-box-shadow:0 2px 0 rgba(0,0,0,0.2);}
+
+.order_body{border:1px #ddd solid; margin-bottom:10px; padding:0 10px 10px;}
+.order_base{border-bottom:1px #ddd solid; padding:10px; margin-bottom:10px; position:relative;}
+.order_base>table{margin-bottom:5px; width:470px;}
+.order_base>table th{color:#333; white-space:nowrap; padding-right:10px; height:16px; text-align:left;}
+.order_base>table td{vertical-align:top;}
+.order_base .order_view{width:200px; padding:12px 20px; background:#f3f3f3; min-height:140px;}
+.order_base .order_view .order_btn{margin-bottom:10px;}
+.order_base .order_view .payment_info{line-height:180%;}
+.order_base .order_view .payment_info h3{font-weight:bold; color:#333;}
+.order_base .order_view .payment_info .rows{padding:2px; padding-left:5px;}
+.order_base .order_view .payment_info .rows strong{display:inline-block; padding-right:3px;}
+.order_base .order_view .payment_info .rows span{display:inline-block;}
+
+.order_menu h3{color:#333; margin-top:15px; text-indent:10px; padding:6px 0; font-size:14px; font-weight:bold;}
+.order_menu>table{margin-bottom:20px;}
+.order_menu>table th{height:26px; background:#f3f3f3; color:#333; font-size:12px; font-weight:bold; font-family:verdana; padding:10px; text-align:left;}
+.order_menu>table td{border-bottom:1px #ddd solid; padding-left:10px; text-align:left; font-size:12px; height:40px;}
+.order_menu>table dl{padding:10px 20px 10px 0;}
+.order_menu>table dt{float:left; width:85px; height:85px; text-align:center;}
+.order_menu>table dt img{max-width:100%; max-height:100%;}
+.order_menu>table dd{margin-left:87px;}
+.order_menu>table dl h4{font-size:13px; padding-left:5px; font-weight:bold;}
+.order_menu>table dl p{padding-left:5px; margin:0; margin-top:5px;}
+.order_menu>table .pro_qty{width:80px;}
+.order_menu>table .pro_price, .order_menu>table .pro_amount{width:100px;}
+
+.grand_total>table{font-family:verdana;}
+.grand_total>table th{text-align:right; width:100%; color:#333; padding:5px 0; font-weight:normal;}
+.grand_total>table th em{padding:0 15px; font-size:12px; font-weight:normal;}
+.grand_total>table td{padding-right:10px;}
+.grand_total>table tfoot th, .grand_total>table tfoot td{background:#f3f3f3; border-top:2px #ddd solid; font-size:14px; font-weight:bold;}
+
+.order_cancel_info{padding:10px; margin-bottom:10px; font-family:verdana;}
+.order_cancel_info .back_click{color:#c00; text-decoration:underline;}
+.order_cancel_info>table{margin-top:5px;}
+.order_cancel_info>table th{text-align:left; color:#666;}
+.order_cancel_view{font-family:verdana; margin-bottom:10px;}
+.order_cancel_view h3{font-size:14px; padding:6px 0; font-weight:bold; color:#666;}
+.order_cancel_view p{margin:0;}
+.order_cancel_view p a{color:#c00;}
+#cancelForm .form_button{width:auto; padding:0 10px;}
+/*************************** 会员订单 (End) ***************************/
+
+
+
+/*************************** 会员评论 (Start) ***************************/
+#lib_user_review .item{padding:20px; border-top:1px dashed #ddd; overflow:hidden;}
+#lib_user_review .item:first-child{border-top:0;}
+#lib_user_review .item dt{width:100px;}
+#lib_user_review .item .pic_box{height:100px; overflow:hidden; text-align:center; vertical-align:middle; display:block;}
+#lib_user_review .item .pic_box img{max-width:100%; max-height:100%;}
+#lib_user_review .item dd{margin-left:120px; line-height:1.6em;}
+#lib_user_review .item .review{colro:#666;}
+#lib_user_review .item .title{height:30px; line-height:30px; border-bottom:1px #ccc dotted;}
+#lib_user_review .item .star{margin-left:10px;}
+#lib_user_review .item .time{margin-right:10px;}
+#lib_user_review .item .content{padding:10px; line-height:1.6em;}
+#lib_user_review .item .reply{margin-top:10px; border:1px #ccc solid; background:#f1f3f8; padding:10px;}
+#lib_user_review .item .reply p{margin:0; line-height:1.6em;}
+#lib_user_review .item .reply .writer{margin-top:6px; color:#999; font-family:Verdana;}
+#lib_user_review .item .reply .replier{color:#333;}
+/*************************** 会员评论 (End) ***************************/
+
+
+
+/*************************** 会员收藏 (Start) ***************************/
+#lib_user_favorite{padding:10px;}
+#lib_user_favorite .pro_item{border:1px #eee solid; margin-left:16px; width:173px; margin-bottom:20px; background:#fafafa;}
+#lib_user_favorite .pro_item>dt{height:173px; text-align:center; vertical-align:middle; background:#fff;}
+#lib_user_favorite .pro_item>dt img{max-width:100%; max-height:100%;}
+#lib_user_favorite .pro_item>dd{padding:0 7px;}
+#lib_user_favorite .pro_item .pro_name{height:36px; overflow:hidden; line-height:140%; padding-top:8px;}
+#lib_user_favorite .pro_item a{color:#666;}
+#lib_user_favorite .pro_item .pro_price{line-height:120%;}
+#lib_user_favorite .pro_item del{font-size:12px; color:#666;}/*display:block; */
+#lib_user_favorite .pro_item del .currency_data, #lib_user_favorite .pro_item del .price_data{color:#666; font-size:12px; font-weight:normal;}
+#lib_user_favorite .pro_item .pro_review{padding-top:8px;}
+#lib_user_favorite .pro_item .pro_view{padding-top:8px; padding-bottom:8px;}
+#lib_user_favorite .pro_item .pro_btn{margin-right:10px; text-decoration:none;}
+#lib_user_favorite .first, #lib_user_favorite .pro_item:first-child{margin-left:0;}
+/*************************** 会员收藏 (End) ***************************/
+
+
+
+/*************************** 会员地址 (Start) ***************************/
+#lib_user_address{padding:24px;}
+#lib_user_address .billing_addr, #lib_user_address .shipping_addr{border-bottom:1px #ccc solid; padding:10px;}
+#lib_user_address .big{margin-bottom:15px; font-size:14px; font-family:georgia; color:#666;}
+#lib_user_address .addr_item{width:230px; margin-right:10px; margin-bottom:15px;}
+#lib_user_address .addr_item li{margin-bottom:5px; font-family:verdana; line-height:150%;}
+#addressForm{display:none; padding:10px;}
+/*************************** 会员地址 (End) ***************************/
+
+
+
+/*************************** 基本资料 (Start) ***************************/
+#lib_user_setting{padding:20px;}
+#lib_user_setting h3{font-size:14px; width:270px; height:30px; line-height:30px; float:left; display:block;}
+#lib_user_setting form{display:inline-block; float:left;}
+#lib_user_setting th{padding-right:10px; font-weight:normal; width:148px; text-align:left;}
+#lib_user_setting td{padding:5px 0;}
+#lib_user_setting .line{width:100%; height:20px; border-bottom:1px solid #e7e7e7; clear:both; overflow:hidden; margin-bottom:20px;}
+#lib_user_setting span{font-family:Arial;}
+/*************************** 基本资料 (End) ***************************/
+
+
+
+/*************************** 站内信 (Start) ***************************/
+.inbox_menu{padding:24px;}
+.inbox_menu .menu_title{height:36px; border-bottom:1px #ddd solid; padding:0 10px;}
+.inbox_menu .menu_title>li{float:left; display:inline; text-align:center; margin-right:10px;}
+.inbox_menu .menu_title a{height:35px; line-height:35px; border:1px #ddd solid; border-top-left-radius:4px; border-top-right-radius:4px; background:#f7f7f7; float:left; padding:0 18px; font-size:14px;}
+.inbox_menu .menu_title a:hover{text-decoration:none;}
+.inbox_menu .menu_title .current{background:#999; color:#fff;}
+.inbox_menu .menu_content{padding:10px; line-height:180%; background:#f3f7ff;}
+.inbox_menu .menu{min-height:200px; _height:200px;}
+
+.msg_list{margin-top:20px;}
+.msg_list li{height:30px; line-height:30px; border-bottom:1px #ccc dashed; padding:0 15px; overflow:hidden;}
+.msg_list li i{width:18px; height:16px; overflow:hidden; background:url(img/user/mail_icon.png) no-repeat 0 0; margin:6px 5px 0 0;}
+.msg_list li i.read{background:url(img/user/mail_icon.png) no-repeat 0 -15px;}
+.msg_view{border-top:1px solid #e8e8e8; width:90%; margin:20px auto 0;}
+.msg_view h3{font-size:14px;}
+.msg_view .rows{clear:both; border-bottom:1px solid #e8e8e8;}
+.msg_view .rows>label, .msg_view .rows .input{padding:8px 0; overflow:hidden; float:left; line-height:28px;}
+.msg_view .rows>label{width:15%; height:28px; text-align:right; padding-right:20px;}
+.msg_view .rows .input{width:80%; min-height:28px; padding-left:10px; display:block; border-left:1px solid #e8e8e8;}
+
+.inbox_form .rows>label, .inbox_form .rows .input{padding:8px 0; overflow:hidden; float:left; display:inline; line-height:28px;}
+.inbox_form .rows>label{width:15%; height:28px; text-align:right; padding-right:10px;}
+.inbox_form .rows .input{width:80%; min-height:28px; padding-left:10px; display:block;}
+.inbox_form .rows .form_input{height:28px; line-height:28px; border:1px solid #e8e8e8; background:#fff; border-radius:5px; padding:0 5px;}
+.inbox_form .rows .form_text{width:500px; height:140px; padding:5px; line-height:150%; border:1px solid #e8e8e8; background:#fff; border-radius:5px; vertical-align:top;}
+
+#lib_user_inbox .msg_list{padding:10px;}
+#lib_user_inbox .submit_btn{display:block; height:28px; line-height:28px; border:none; padding:0 30px; border-radius:5px; text-align:center; text-decoration:none; float:left; margin-right:10px; background:#87AABE; border:1px solid #7693A3; color:#fff; cursor:pointer;}
+/*************************** 站内信 (End) ***************************/
+
+
+
+/*************************** 系统消息 (Start) ***************************/
+#lib_user_msg{padding:0 20px;}
+#lib_user_msg .submit_btn{display:block; height:28px; line-height:28px; border:none; padding:0 30px; border-radius:5px; text-align:center; text-decoration:none; float:left; margin-right:10px; background:#87AABE; border:1px solid #7693A3; color:#fff; cursor:pointer;}
+/*************************** 系统消息 (End) ***************************/
+
+
+
+/*************************** 会员捆绑 (Start) ***************************/
+#lib_user_binding{width:960px; margin:0 auto; overflow:hidden; background:#fff; padding:30px 0;}
+#lib_user_binding form{border:1px solid #ccc; padding-bottom:20px; margin:0 250px;}
+#lib_user_binding form .title{margin:0 20px 15px; height:52px; border-bottom:1px solid #e5e5e5; line-height:52px; font-size:24px; text-indent:13px; color:#333;}
+#lib_user_binding form .error_note_box{border:1px #ffdb83 solid; color:#f00; padding:10px; margin:15px 20px; background:#fff9e1; display:none;}
+#lib_user_binding form .on_error{margin:0; color:#f00; display:none;}
+#lib_user_binding form .row{margin:10px 0 0 33px;}
+#lib_user_binding form .row label{display:block; font-size:14px; color:#555; margin-bottom:4px;}
+/*************************** 会员捆绑 (End) ***************************/

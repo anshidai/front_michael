@@ -1,0 +1,98 @@
+/*登录弹出框(start)*/
+#signin_module{position:fixed; z-index:100000; top:20%;}
+#signin_module .box_bg{width:100%; height:100%; background-color:#fff; position:absolute; top:0; left:0; -moz-box-shadow:0px 0px 20px #000; -webkit-box-shadow:0px 0px 20px #000; box-shadow:0px 0px 20px #000; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px;}
+
+#signin_module .noCtrTrack{top:12px; right:0px; width:40px; height:26px; font-size:30px; color:#000; opacity:0.2; filter:alpha(opacity=20); text-decoration:none; font-family:Helvetica; font-weight:bold; position:absolute; z-index:100000;}
+#signin_module .noCtrTrack:hover{color:#000000; text-decoration:none; cursor:pointer; opacity:0.4; filter:alpha(opacity=40);}
+
+#signin_module #lb-wrapper{width:400px; padding:20px; position:relative; z-index:10; zoom:1; background-color:#fff; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px; -webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3); -moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3); box-shadow:0 3px 7px rgba(0, 0, 0, 0.3); -webkit-background-clip:padding-box; -moz-background-clip:padding-box; background-clip:padding-box;}
+#signin_module #lb-wrapper h3{font-size:16px; display:block; padding-bottom:10px; color:#333; line-height:18px; border-bottom:1px solid #ddd; text-indent:8px;}
+#signin_module #lb-wrapper .lib_txt{border:1px solid #ccc; border-radius:3px!important; height:36px; line-height:36px; width:370px; padding:0 7px; color:#333; font-size:16px; box-shadow:0 1px 0 rgba(255,255,255,.8),inset 0 1px 2px rgba(0,0,0,.06);}
+#signin_module #lb-wrapper .title{margin:0 20px 15px; height:52px; border-bottom:1px solid #e5e5e5; line-height:52px; font-size:24px; text-indent:13px; color:#333;}
+#signin_module #lb-wrapper .error_note_box{border:1px #ffdb83 solid; color:#f00; padding:10px; margin:15px 5px; background:#fff9e1; display:none;}
+#signin_module #lb-wrapper .on_error{margin:0; color:#f00; display:none;}
+#signin_module #lb-wrapper .row{ margin-top:10px; padding:0 8px;}
+#signin_module #lb-wrapper .row label{display:block; font-size:14px; color:#555; margin-bottom:4px;}
+#signin_module #lb-wrapper .row a.forgot{text-decoration:underline;}
+#signin_module #lb-wrapper .protect{padding-left:30px; position:relative; overflow:hidden; margin-bottom:15px;}
+#signin_module #lb-wrapper .protect span{color:#767676; display:block; margin-top:4px;}
+#signin_module #lb-wrapper .protect .ckb{position:absolute; top:2px; left:4px;}
+#signin_module #lb-wrapper .signbtn{border-radius:4px; -ms-border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; padding:2px 12px; line-height:25px; display:inline-block; cursor:pointer; font-size:14px; margin-right:16px;}
+#signin_module #lb-wrapper .signin{color:#fff;}
+#signin_module #lb-wrapper .signup{background:#fff; border:1px solid #d0d0d0;}
+
+/*.fb_button{color:#fff; height:30px; margin-bottom:8px;}*/
+.fb_button{display:block; height:32px; overflow:hidden; position:relative; margin-bottom:12px; cursor:pointer;}
+.fb_button i{width:30px; height:32px; overflow:hidden; background:url(../images/user/sign_in_facebook.png) left top no-repeat; position:absolute; left:0; top:0;}
+.fb_button em{width:8px; height:32px; overflow:hidden; background:url(../images/user/sign_in_facebook.png) left -73px no-repeat; position:absolute; right:0; top:0;}
+.fb_button span{display:block; margin:0 8px 0 30px; height:32px; line-height:32px; overflow:hidden; background:url(../images/user/sign_in_facebook.png) left -37px repeat-x; color:#fff; text-indent:8px; font-size:10px;}
+.fb_button:hover i{background:url(../images/user/sign_in_facebook.png) left -110px no-repeat;}
+.fb_button:hover em{background:url(../images/user/sign_in_facebook.png) left -186px no-repeat;}
+.fb_button:hover span{background:url(../images/user/sign_in_facebook.png) left -148px repeat-x;}
+
+
+.google_button{display:block; height:32px; line-height:30px; background:#cc3732; color:#fff; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; margin-bottom:12px;}
+.google_button:hover{background:#e74b37; cursor:pointer;}
+.google_button span.icon{background:url(../images/user/google_icon.png) transparent 0 50% no-repeat; display:inline-block; vertical-align:middle; width:22px; height:22px; margin-left:5px;}
+.google_button span.button_text{line-height:28px; font-size:10px; margin-left:8px;}
+
+#paypalLogin{}/*margin:8px 0;*/
+#paypalLogin .PPBlue{height:32px!important;}
+#paypalLogin .PPBlue b{padding:0!important; padding-left:8px!important; padding-right:40px!important;}/*padding:0 16px!important;*/
+/*登录弹出框(end)*/
+
+
+/*注册、找回密码(start)*/
+#customer{width:980px; margin:0 auto; overflow:hidden;}
+#customer .header{width:100%; height:90px; overflow:hidden; border-bottom:1px solid #c8c8c8; margin-bottom:20px;}
+#customer .header .logo{width:500px; height:90px; overflow:hidden;}
+#customer .header .logo img{max-width:100%; max-height:100%;}
+#customer .header .home{padding:45px 0 21px; height:24px; line-height:24px; display:block; text-decoration:underline; color:#999;}
+#customer .header .home:hover{color:#666;}
+
+#customer .sign_btn, #customer .fb_button, #customer .google_button{width:184px;}
+#customer #paypalLogin .PPBlue b{padding: 0!important; padding-left: 18px!important; padding-right: 30px!important;}
+
+#signup{padding-top:20px;}
+#signup .register{width:600px;}
+#signup .register .title{margin-bottom:15px; height:32px; border-bottom:1px solid #e5e5e5; font-size:16px; text-indent:13px; color:#333;}
+#signup .register .error_note_box{border:1px #ffdb83 solid; color:#f00; padding:10px; margin:15px; background:#fff9e1; display:none;}
+#signup .register .on_error{margin:0; color:#f00; display:none;}
+#signup .register .row{margin:10px 15px;}
+#signup .register .row label{display:block; font-size:14px; color:#555; margin-bottom:4px;}
+#signup .register .intro{color:#555; margin:15px 20px; height:auto; line-height:20px; width:auto;}
+#signup .register .intro a{color:#0654ba; text-decoration:underline;}
+#signup .register .intro dt{font-weight:bold;}
+#signup .register .intro dd{padding-left:15px; background:url(/static/images/user/point2.gif) no-repeat 0 7px; margin-top:5px;}
+#signup .register .lib_txt{border:1px solid #ccc; border-radius:3px!important; height:36px; line-height:36px; padding:0 7px; color:#333; font-size:16px; box-shadow:0 1px 0 rgba(255,255,255,.8),inset 0 1px 2px rgba(0,0,0,.06);}
+#signup .register .lib_txt:hover{border:1px solid #aaa;}
+#signup .register .signbtn{border-radius:4px; -ms-border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; padding:2px 12px; line-height:25px; display:inline-block; cursor:pointer; font-size:14px; margin-right:16px; text-decoration:none;}
+#signup .register .signup{color:#fff;}
+
+#signup .info{width:232px;}
+#signup .info .box{width:190px; padding:15px 20px; border:1px solid #ddd; margin-bottom:15px;}
+#signup .info .member p{padding:0; padding-bottom:12px; margin:0;}
+#signup .info .member .signinbtn{height:32px; line-height:30px; padding:0 15px; border:1px solid #dbdbdb; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; cursor:pointer; display:block; margin:0 auto; text-align:center; margin-bottom:12px; background:-webkit-gradient(linear, left top, left bottom, from(#ff9100), to(#ff7300)); -webkit-background-origin: padding; -webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.3); -moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.3); box-shadow:0 2px 2px rgba(0, 0, 0, 0.3); color:#fff; font-size:14px;}
+#signup .info .member .signinbtn:hover{background:-webkit-gradient(linear, left top, left bottom, from(#ffab3c), to(#fd8d32));}
+
+#signup .info .box h3{font-size:14px; font-weight:bold; padding-bottom:12px;}
+#signup .info .box li{height:28px; line-height:28px; overflow:hidden; background:url(../images/user/point.gif) left center no-repeat; background-size:3px 3px; text-indent:8px;}
+
+#customer .footer{border-top:1px solid #dcdcdc; padding:16px 0; text-align:center;}
+#customer .footer .img{padding:10px 0;}
+#customer .footer .copyright{padding-top:8px;}
+/*注册、找回密码(end)*/
+
+
+/***** message start *****/
+#lib_user_binding{width:960px; margin:0 auto; overflow:hidden; background:#fff; padding:70px 0;}
+#lib_user_binding form{border:1px solid #ccc; padding-bottom:20px; margin:0 150px;}
+#lib_user_binding form .title{margin:0 20px 15px; border-bottom:1px solid #e5e5e5; line-height:40px; padding:12px; font-size:24px; color:#333;}
+#lib_user_binding form .error_note_box{border:1px #ffdb83 solid; color:#f00; padding:10px; margin:15px 20px; background:#fff9e1; display:none;}
+#lib_user_binding form .on_error{margin:0; color:#f00; display:none;}
+#lib_user_binding form .row{margin:10px 0 0 33px;}
+#lib_user_binding form .row label{display:block; font-size:14px; color:#555; margin-bottom:4px;}
+#lib_user_binding .lib_txt{border:1px solid #ccc; border-radius:3px!important; height:36px; line-height:36px; padding:0 7px; color:#333; font-size:16px; box-shadow:0 1px 0 rgba(255,255,255,.8),inset 0 1px 2px rgba(0,0,0,.06);}
+#lib_user_binding .lib_txt:hover{border:1px solid #aaa;}
+#lib_user_binding .lib_btn{height:32px; padding:0 20px; border-radius:3px!important; border:none; color:#fff; font-size:16px; font-weight:bold;}
+/***** message end *****/
