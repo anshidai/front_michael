@@ -112,13 +112,13 @@ websiteDisplay();
 				<h4>The service help</h4>
 				<ul></ul>
 			</div>
-			<div class="index_mr index_boxes index_item favorites " style="height: 174px;">
+			<div class="index_mr index_boxes index_item favorites">
 				<h4>My Favorite</h4>
 				
 				<notempty name="info.collect_goods">
 				<!-- 收藏 -->
 				<div class="viewport">
-					<ul  class="list" style="width: 180px;">
+					<ul  class="list">
 						<foreach name="info.collect_goods" item="vo">
 						<li>
 						<span class="photo"><a target="_blank" title="{$vo.goods_name}" href=""><img alt="{$vo.goods_name}" src="{$vo.goods_thumb}"></a></span>

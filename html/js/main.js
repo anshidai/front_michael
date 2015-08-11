@@ -1,4 +1,3 @@
-
 //loading加载效果
 $.fn.loading=function(e){
 	e=$.extend({opacity:.5,size:"big"},e);
@@ -25,7 +24,6 @@ $.fn.unloading=function(){
 
 
 //滚动插件
-/*
 $.fn.carousel=function(e){
 	e=$.extend({itemsPerMove:2,duration:1e3,vertical:!1,specification:"",width:0,height:0,step:1,preCtrEntity:"pre_arrow",nextCtrEntity:"next_arrow"},e);
 	var t=this,
@@ -108,7 +106,7 @@ $.fn.carousel=function(e){
 		}
 	l.init();
 }
-*/
+
 
 //倒计时插件
 $.fn.genTimer=function(e){

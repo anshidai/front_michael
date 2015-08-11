@@ -30,6 +30,8 @@ class CollectGoodsModel extends RelationModel {
 			if($res) {
 				foreach($res as $val) {
 					if($val['goods_list']) {
+						$val['goods_list']['goods_thumb'] = C('IMG_HOST'). '/' .$val['goods_list']['goods_thumb'];
+						$val['goods_list']['original_img'] = C('IMG_HOST'). '/' .$val['goods_list']['original_img'];
 						$data[$val['goods_id']] = $val['goods_list'];
 					}
 				}			

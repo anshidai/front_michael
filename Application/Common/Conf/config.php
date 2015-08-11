@@ -48,5 +48,7 @@ return array(
     'DB_PWD'    => '',  // 密码
     'DB_PORT'   => '3306', // 端口
     'DB_PREFIX' => 'pre_', // 数据库表前缀
+	
+	'IMG_HOST'	=> 'http://libaoan.admin.michael.com',
 
 );

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.editAddr *{font-family:Verdana;}
+.editAddr p{padding:0; margin:0; clear:both;}
+.editAddr th, .editAddr td{padding: 6px; vertical-align: top; font-weight:lighter; text-align:left;}
+.editAddr th{ display:inline-block; line-height: 22px;}
+.editAddr th label{margin-left:3px;}
+.editAddr td.recipient div{float: left; padding-right:6px; width: 152px;}
+.editAddr td.recipient input{width: 148px;}
+
+.editAddr th .required{float: left; width: 6px; margin-left: -6px;}
+.editAddr input {width: 306px; padding: 4px 1px 1px; height: 17px; font: bold 12px arial;}
+.editAddr td .countryCode{width: 40px; margin-right: 6px; text-align: right; border: none; float:left;}
+.editAddr td .editableSelect{ width: 268px; float:left;}
+.editAddr td .editableSelect .phoneNum{margin-right:6px; width: 258px;}
+.editAddr td .lightGray{font-size: 10px; color: #999; margin-top: 5px;}
+.editAddr td .askTips{display: inline-block;}
+
+.editAddr select {margin: 0; border: 1px solid #bbb; padding: 1px; height: 20px; width: 310px;}
+.editAddr .taxCodeOption{width: 177px;}
+.editAddr .taxCodeValue{margin: 0 6px; width: 120px;}
+
+.editAddr .tariffCodeOption{width: 190px;}
+.editAddr .tariffCodeValue{margin: 0 6px; width: 107px;}
+
+.editAddr .errorInfo, .editAddr .errorInfo a:link{color:#990000; font-size:11px;}
+
+.editAddr .cancel{padding-left:18px; background: url(img/cart/chosen-sprite.png) no-repeat -45px 2px; float:right; text-decoration:underline;}
